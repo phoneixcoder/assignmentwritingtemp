@@ -1,0 +1,308 @@
+@use "sass:math";
+
+.steps-container{
+  
+  background: #091115;
+  padding: 40px 20px 80px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.stepsToFollow-bg-header{
+ position: absolute;
+ width: 824px;
+ height: 106px;
+ left: -9.9rem;
+ top: 1.4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: -1;
+ opacity: 0.5;
+}
+
+.heading{
+  letter-spacing: 0.25em;
+  z-index: 1;
+  padding: 60px;
+  color: #EAF3F9;
+  position: relative;
+}
+
+.heading h1{
+  font-size: 40px;
+  color: #EAF3F9;
+  font-weight: 600;
+}
+
+
+
+// CARDS CSS START
+.cards {
+  position: relative;
+  height: 185px;
+  min-width: 185px;
+}
+
+
+
+.box {
+  // z-index: 3;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+
+.content {
+  // z-index: 3;
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+
+// CARDS CSS END
+
+/* */
+.circular-container{
+  /* display: flex; */
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* width: 900px; */
+  /* height: 900px; */
+} 
+
+
+// STEPS DESC CSS START
+
+#step-number{
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  top: 12rem;
+  left: 11rem;  
+  color: #fff;
+  width: 650px;
+  height: 200px;
+  border: 4px solid #2D9CDB;
+  border-radius: 257px;
+
+}
+
+.header{
+    top: -3rem;
+    left: 10rem;
+    width: 20rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background: #091115;
+    padding: 1rem;
+}
+
+#step-number .content h3{
+  position: absolute;
+  background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 24px;
+}
+#step-number .content p{
+  font-size: 18px;
+  margin: 2.5rem 0 0;
+}
+.step-number-title{
+  font-size: 22px !important;
+}
+
+
+// STEPS MIDDLE DESC CSS END
+
+
+// @import "compass/css3";
+
+
+/// Mixin to place items on a circle
+/// @param {Integer} $item-count - Number of items on the circle
+/// @param {Length} $circle-size - Large circle size
+/// @param {Length} $item-size - Single item size
+/// 
+/// 
+@mixin on-circle($item-count, $circle-size,$circle-height, $item-size) {  
+  position: relative;
+  width:  $circle-size;
+  height: $circle-height;
+  border-radius: 50%;
+  padding: 0; 
+  list-style: none;
+  
+  > * {
+    display: flex;
+    position: absolute;
+    top:  50%; 
+    left: 50%;
+    margin: - math.div($item-size , 2);
+    width:  $item-size;
+    height: $item-size;
+    
+    $angle: math.div(360 , $item-count);
+    $rot: 0;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform: rotate($rot * 1deg) translate(math.div($circle-size , 2)) rotate($rot * -1deg);
+      }
+
+      $rot: $rot + $angle;
+    }
+    
+    &:nth-of-type(1){
+      transform: rotate(-88deg) translate(15em) rotate(88deg);
+    }
+
+    &:nth-of-type(2){
+      transform: rotate(160deg) translate(-27em) rotate(-160deg);
+    }
+
+    &:nth-of-type(3){
+      transform: rotate(23deg) translate(28em) rotate(-23deg);
+    }
+    &:nth-of-type(4){
+      transform: rotate(85deg) translate(17em) rotate(-85deg);
+    }
+   
+    &:nth-of-type(5){
+      transform: rotate(159deg) translate(28em) rotate(-159deg);
+    }
+    
+    &:nth-of-type(6){
+      transform: rotate(202deg) translate(25em) rotate(-202deg);
+    }    
+
+  }
+}
+
+.outer-circle{
+  width: 65rem !important;
+  height: 35rem !important;
+  border-radius: 50%;
+  // background: #EAF3F9;
+  position: relative;
+  border: 2px solid #2D9CDB !important;
+  padding: 20px;
+}
+
+.inner-circle{
+  @include on-circle($item-count: 6, $circle-size: 62em,$circle-height:32em,$item-size: 220px); 
+  border: solid 2px #1A8ED0;
+  background: #091115;
+  .cards { 
+    transition: .15s;
+    max-width: 50%; 
+    // display: block; 
+    // border-radius: 50%;
+    // filter: grayscale(30%);
+     
+    // &:hover {
+    //   filter: grayscale(0);
+    // }
+  }
+}
+
+
+
+// Progress Bar
+.circular-progress{
+  position: absolute;
+  top: -0.35px;
+  left: 0rem;
+  width: 64.8rem;
+  height: 34.8rem;
+  // background: rgb(63, 195, 138);
+  color: #EAF3F9 !important;
+  border-radius: 50%;
+  // z-index: 5;
+}
+// .MuiCircularProgress-svg{
+//   width: 30rem;
+//   height: 20rem;
+// }
+.value-container{
+  position: relative;
+  font-size: 50px;
+  color: #3700ff;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  
+  .stepsToFollow-bg-header{
+    left: 1rem;
+    margin-top: -6px;
+    height: 5.25rem;
+    width: 100%;
+  }
+
+}
+
+@media all and (min-width: 375px) and (max-width: 768px) {
+   .heading{
+    padding: 20px 0;
+   }
+  .heading h1 {
+    font-size: 22px;
+    color: #EAF3F9;
+    font-weight: 700;
+  }
+
+  .stepsToFollow-bg-header{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      left: 1rem;
+      height: 2rem;
+      margin: -2px -20px;
+  }
+
+  .cards {
+    position: relative;
+    height: 110px;
+    min-width: 110px;
+  }
+  .step-icon{
+    height: 10px;
+  }
+
+}

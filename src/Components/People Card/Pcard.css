@@ -1,0 +1,324 @@
+.Testimonial-main1{
+    margin: 4rem 0;
+}
+
+.Testimonials-container1{
+    margin: 4rem 0;
+    background: #EAF3F9;
+}
+
+
+
+.Testimonial-header1 h1 {
+    display: block;
+    font-weight: 700;
+    font-size: 75px !important;
+    /* line-height: 110%; */
+/* identical to box height, or 62px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+/* 11 */
+
+background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+.subjects-heading--container--exp{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.subjects-heading--container--exp button {
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%) !important;
+}
+.subjects-heading--container--exp .btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #F5FFFA;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    /* Inside auto layout */
+}
+.subjects-heading--container--exp .btn:hover {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* .testimonial-hr{
+    margin-left: 40%;
+    opacity: 1;
+    width: 100px;
+    border: 4px solid #2D9CDB;
+} */
+
+
+/* SWIPER CSS START */
+.swiper-pagination-bullet-active{
+    background: #2D9CDB!important;
+}
+.swiper-pagination-bullet{
+    width: 1rem!important;
+    height: 1rem!important;
+    border: 2px solid #2D9CDB;
+    background: transparent!important;
+}
+  
+.swiper{
+    margin:0;
+    height: 70vh;
+    width:90vw;
+}
+
+.container h1{
+    color: #2DD1DB;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 30px;
+}
+
+.swiper-client-msg1{
+    cursor:grab;
+    padding: 1rem;
+    width: 20vw;
+    height: 55vh;
+    margin-left: 3.5rem;
+    /* margin-top: 4rem; */
+    
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    /* blueshade */
+    
+    box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+    border-radius: 18px;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.swiper-client-msg1:hover{
+    transform: translateX(-10px);
+    cursor:grab;
+    padding: 1rem;
+    width: 22vw;
+    height: 58vh;
+    margin-left: 3.5rem;
+    /* margin-top: 4rem; */
+    
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    /* blueshade */
+    
+    box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+    border-radius: 18px;
+}
+
+.swiper-client-msg1 p{
+   margin-top: 20px;
+}
+
+/* .swiper-client-msg p::before{
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    top: -.25rem;
+    left: 1rem;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #1a8ed0;
+}
+.swiper-client-msg p::after{
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    bottom: -.25rem;
+    right: 1rem;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #9ee3ff;
+} */
+
+/* .swiper-slide .left{
+    position: absolute;
+    max-width: 14rem;
+    height: 14rem;
+    left: 0;
+    top: 0;
+    margin-left: 10rem;
+}
+.swiper-slide .right{
+    position: absolute;
+    max-width: 14rem;
+    height: 14rem;
+    right: 0;
+    bottom: 0;
+} */
+
+/* .swiper-client-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    gap: .5rem;
+} */
+
+.client-data-details1{
+    text-align: center;
+
+}
+
+/* .client-data-details h5{
+    margin: 10px 0 0;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+} */
+.client-data-details1 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+};
+
+.swiper-pagination-bullet-active {
+
+    opacity: var(--swiper-pagination-bullet-opacity, 0.8);
+    color: #1A8ED0 !important;
+/* glow */
+
+box-shadow: 0px 0px 32px 8px rgba(32, 115, 163, 0.25) !important;
+size: 10rem !important;
+    
+}
+
+
+.swiper-client-msg1 h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+text-align: center;
+letter-spacing: 0.05em;
+margin-top: 5%;
+
+color: #FFFFFF;
+}
+
+.swiper-client-msg1 h3{
+
+    /* Body */
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+
+.swiper-client-msg1 .rating{
+    padding: 3%;
+}
+.swiper-client-msg1 .review{
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+
+
+.header_container1{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pcard-heading--background1{
+    position: absolute;
+    top: 5px;
+    left: 28%;
+
+    height: 12vh;
+    width: auto;
+}
+
+.header_container1 h2{
+    color: #2DD1DB;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 30px;
+    margin-top: 2.2% !important;
+    font-size: 2.5em;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.btn-hire{
+    text-align: center !important;
+}
+
+.subjects-heading--container--exp{
+    position: relative;
+    overflow: hidden;
+}
+
+.subjects-heading--text--exp {
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 5.438rem;
+}
+
+.subjects-heading--background--exp{
+    position: absolute;
+    width: 50%;
+    top: 6.8rem;
+}

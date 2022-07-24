@@ -1,0 +1,46 @@
+:root {
+    --primaryText: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    --white: #ffffff;
+  }
+.reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:   #EAF3F9;
+}
+
+.reasons-main-heading-container{
+    margin-top: 10.625rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reasons-main-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.reasons-background{
+    position:absolute;
+    width: 57rem;
+    height: 6.625rem;
+    left: 25.9rem;
+    top: -2.4rem;
+    opacity: 0.5;
+}
+.reasons-card-container{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 5rem;
+    row-gap: 3rem;
+}

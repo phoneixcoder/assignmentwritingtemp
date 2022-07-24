@@ -1,0 +1,25 @@
+*::-webkit-scrollbar {
+    width: .75rem;
+}
+
+::-webkit-scrollbar-track{
+    border-radius:100vw;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fff;
+    border:.15em solid #8fbfdb ;
+    border-radius:100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(256,256,256,.9);
+}
+
+
+/* IE and Edge */
+/* Firefox */
+/* *{
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+} */

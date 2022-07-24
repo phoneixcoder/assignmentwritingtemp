@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bckcolor{
+    background: #EAF3F9;
+   
+}
+
+
+
+.right_div5{
+    
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    text-align: left;
+}
+
+
+
+.about-title5{
+   /* Subheading */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 110%;
+/* or 26px */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+.paddingbot{
+    padding-bottom: 5%;
+}
+.about-para5{
+    /* Body */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.05em;
+margin-top: 2rem;
+color: #FFFFFF;
+padding-right: 1rem;
+}
+
+
+
+.re-card{
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+
+
+box-shadow: 0px 12px 24px 4px rgba(10, 61, 89, 0.3);
+border-radius: 16px;
+padding-top: 0;
+height: 30vh;
+width: 80vh;
+}
+
+.aboutH5{
+    /* Subheading */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+letter-spacing: 0.05em;
+
+/* head */
+
+color: #151515;
+text-align: center;
+
+}
+
+
+
+/* .secondpadding {
+    padding-top: 3%;
+    padding-bottom: 5%;
+} */
+
+
+
+
+
+.abPara5{
+/* Body */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.05em;
+
+/* txtlight */
+
+color: #363E3D;
+text-align: center;
+}
+    
+/* .header_containerabout5{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+  } */
+/*   
+  .Aboutcard-heading--background{
+    position: absolute;
+    top: 0%;
+    left:27%;
+  
+    height: 12vh;
+    width: auto;
+  } */
+
+
+  /* .header_ser_containerxy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 7% !important;
+    overflow: hidden;
+  } */
+
+  /* .Aboutcard-Sheading--background{
+    position: absolute;
+    top: 53%;
+    left:25%;
+  
+    height: 12vh;
+    width: auto;
+    
+  } */
+
+  /* .Ssmain-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    
+    color: black;
+    margin-top: -5%;
+
+} */
+
+/* .card-paraSs{
+    text-align: left;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+} */
+
+
+/* .Ssmain-card{
+    background: transparent;
+    border-color: #2D9CDB;
+    border-top: 1rem;
+    border-right: 1rem;
+    border-bottom: 1rem;
+    border-width: 0.3em;
+    border-radius: 0;
+
+    height: 25vh;
+    width: auto;
+    
+    
+
+
+} */
+
+.about-padd{
+    padding-bottom:5% ;
+}
+
