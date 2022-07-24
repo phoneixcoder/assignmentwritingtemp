@@ -6,13 +6,11 @@
 .service-main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .service-heading1--container {
   position: relative;
-  margin-top: 7.5rem;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,7 +25,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 125%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -39,41 +37,41 @@
 
 .service-heading1--background{
   position: absolute;
-  top: -28%;
-  opacity: 0.5;
+  top: -22.5%;
+  opacity: 0.3;
 }
 
 .service--imgParaBox{
-  margin-top: 7.188rem;
+  margin-top: 64px;
   position: relative;
   display: flex;
   flex-direction: row;
-  margin-left: 6rem;
+  margin-left: 120px;
 }
 .service--header--img{
   position: absolute;
-  left: 62%;
-  top: -20%;
+  left: 55%;
+  top: -39%;
   background: url(./ServiceAssests/laptop.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 37.063rem;
-  height: 20.438rem;
+  background-size: 491px, 237.42px;
+  width: 491px;
+  height: 237.42px;
 }
 
-.service-main-text-container {
+.service-main-text-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60.375rem;
-  height: 12.063rem;
+  width: 728px;
+  height: 139px;
 }
 
 .brand-names--heading {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 110%;
   letter-spacing: 0.05em;
   color: #151515;
@@ -86,18 +84,17 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 14px;
+  line-height: 136%;
   letter-spacing: 0.05em;
   color: #363E3D;
 }
 
 .service--container{
-  margin-right: 8rem;
-  margin-left: 3rem;
+  margin-left: 120px;
   margin-top: 10rem;
   display: grid;
   grid-template-columns: 50% 50%;
-  column-gap: 4rem;
+  column-gap: 1rem;
   row-gap: 3rem;
 }

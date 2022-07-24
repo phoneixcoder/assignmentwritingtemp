@@ -24,6 +24,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin-right: 2rem;
 }
 
 .hire-btn {
@@ -69,6 +70,7 @@
     text-transform: uppercase;
     color: #2D9CDB;
     margin-right: 2rem;
+    margin-left: 0.5rem;
 }
 
 .nav-link {

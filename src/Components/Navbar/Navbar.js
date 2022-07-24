@@ -70,7 +70,7 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link" to="/">
                   BLOGS
                 </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/">
                   WRITING TOOLS
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
@@ -116,9 +116,9 @@ const Navbar = () => {
                 Get A Quote
               </button>
             </Link>
-            {/* <button type="button" className="btn login-btn">
+            <button type="button" className="btn login-btn">
               LOGIN
-            </button> */}
+            </button>
           </div>
         </div>
       </nav>

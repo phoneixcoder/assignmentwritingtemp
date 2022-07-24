@@ -21,13 +21,13 @@ import ResearchPaper from "./Pages/ResearchPaper/ResearchPaper";
 const App = () => {
   return (
     <>
-      <div className="d-flex justify-content-center pt-3 pb-0" >
+      {/* <div className="d-flex justify-content-center pt-3 pb-0" >
         <p>
           Our website is currently under maintenance, but we are still open for
           orders. Please <a href="https://wa.me/+61272020993">WhatsApp</a> us to
           place an order. Apologies for the inconvenience caused.
         </p>
-      </div>
+      </div> */}
       <Router>
         <Navbar/>
         <Routes>
