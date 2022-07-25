@@ -14,37 +14,37 @@ const steps = [
   {
     id: 1,
     title: "Fill up the Quote",
-    desc: "1-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: one,
   },
   {
     id: 2,
     title: "Get A Free Consultant",
-    desc: "2-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: two,
   },
   {
     id: 3,
     title: "Know About Our Services",
-    desc: "3-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: three,
   },
   {
     id: 4,
     title: "Assign Us The Task",
-    desc: "4-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: four,
   },
   {
     id: 5,
     title: "Assignment Delivery",
-    desc: "5-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: five,
   },
   {
     id: 6,
     title: "Share Your Feedback",
-    desc: "6-Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
+    desc: "Take your time and ask all doubts you have. We want you to have clarity over what we offer.",
     img: six,
   },
 ];
@@ -99,8 +99,8 @@ const StepsToFollow = () => {
   return (
     <div className="steps-container">
       <div className="heading">
+        <h1>Steps to Follow</h1>
         <img src={header} alt="header" className="stepsToFollow-bg-header" />
-        <h1>Steps To Follow</h1>
       </div>
 
       <div className="circular-container">
@@ -111,8 +111,8 @@ const StepsToFollow = () => {
           <div id="step-number">
             <div className="content">
               <div className="header">
-                <h3>Step {content.id}</h3>
-                <p>{content.title}</p>
+                <h3>Know about our Services</h3>
+                {/* <p>{content.title}</p> */}
               </div>
               <p>{content.desc}</p>
             </div>

@@ -10,15 +10,16 @@
 }
 
 .reasons-main-heading-container{
-    margin-top: 10.625rem;
+    margin-top: 7.9%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .reasons-main-heading {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 125%;
     text-align: center;
     letter-spacing: 0.05em;
@@ -29,18 +30,16 @@
 }
 .reasons-background{
     position:absolute;
-    width: 57rem;
-    height: 6.625rem;
-    left: 25.9rem;
-    top: -2.4rem;
-    opacity: 0.5;
+    top: -40%;
+    width: 38rem;
+    height: 4.375rem;
+    opacity: 0.3;
 }
 .reasons-card-container{
-    margin-top: 4rem;
-    margin-left: 8rem;
-    margin-right: 10rem;
+    margin-left: 8%;
+    margin-top: 6.7%;
     display: grid;
-    grid-template-columns: 49% 49%;
-    column-gap: 5rem;
-    row-gap: 3rem;
+    grid-template-columns: 50% 50%;
+    column-gap: 2%;
+    row-gap: 3%;
 }

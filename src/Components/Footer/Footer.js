@@ -124,7 +124,7 @@ const Footer = () => {
         <div className="footer-box">
           <p>
             Copyright &#169;
-            <em> {year} </em>
+            {/* <em> {year} </em> */}
             <a href="https://www.assignmentcure.com/">Assignment Cure. </a>
             All Rights Reserved
           </p>

@@ -1,6 +1,6 @@
 import React,{useRef, useState} from 'react';
-import arrowIcon from "../../assets/Faq/arrow1.png";
-import chevron from "../../assets/Faq/arrow.png";
+import arrowIcon from "../../assets/Faq/arrow.svg";
+import chevron from "../../assets/Faq/arrow1.svg";
 import header from "../../assets/Faq/faq.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import CloseIcon from "@mui/icons-material/Close";

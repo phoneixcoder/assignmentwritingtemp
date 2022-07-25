@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    height: 6.5rem;
+    width: 36rem;
 }
 
 .reason-card-header {
@@ -12,8 +14,8 @@
 
 .card-count-nummber {
     font-weight: 600;
-    font-size: 48px;
-    line-height: 110%;
+    font-size: 32px;
+    line-height: 125%;
     text-align: center;
     letter-spacing: 0.06em;
     color: rgba(45, 156, 219, 1);
@@ -21,7 +23,7 @@
 
 .card-heading-text{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 110%;
     letter-spacing: 0.05em;
     color: #151515;
@@ -29,9 +31,9 @@
 }
 .card-para-text {
     font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 136%;
     letter-spacing: 0.05em;
     color: #363E3D;
-    margin-top: -10px;
+    margin-top: -1.5%;
 }

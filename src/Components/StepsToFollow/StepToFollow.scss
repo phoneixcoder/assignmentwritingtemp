@@ -1,42 +1,41 @@
 @use "sass:math";
 
 .steps-container{
-  
+  margin-top: 6%;
   background: #091115;
-  padding: 40px 20px 80px;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+  height: 160vh;
+}
+.heading{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 .stepsToFollow-bg-header{
  position: absolute;
- width: 824px;
- height: 106px;
- left: -9.9rem;
- top: 1.4rem;
- display: flex;
- justify-content: center;
- align-items: center;
- z-index: -1;
- opacity: 0.5;
-}
-
-.heading{
-  letter-spacing: 0.25em;
-  z-index: 1;
-  padding: 60px;
-  color: #EAF3F9;
-  position: relative;
+ top: -35%;
+ opacity: 0.3;
 }
 
 .heading h1{
-  font-size: 40px;
-  color: #EAF3F9;
   font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
 }
 
 
@@ -95,7 +94,7 @@
 /* */
 .circular-container{
   /* display: flex; */
-  margin: 50px;
+  margin-top: 8%;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -113,35 +112,44 @@
   top: 12rem;
   left: 11rem;  
   color: #fff;
-  width: 650px;
-  height: 200px;
-  border: 4px solid #2D9CDB;
-  border-radius: 257px;
+  width: 686px;
+  height: 125px;
+  border: 2px solid #2D9CDB;
+  border-radius: 176px;
 
 }
 
 .header{
-    top: -3rem;
-    left: 10rem;
-    width: 20rem;
+    top: -2rem;
+    left: 11rem;
+    width: 22rem;
     position: absolute;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background: #091115;
     padding: 1rem;
 }
 
 #step-number .content h3{
-  position: absolute;
-  background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #F2F2F2;
 }
 #step-number .content p{
-  font-size: 18px;
-  margin: 2.5rem 0 0;
+  width: 575px;
+  height: 42px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 }
 .step-number-title{
   font-size: 22px !important;
@@ -298,11 +306,13 @@
 
   .cards {
     position: relative;
-    height: 110px;
-    min-width: 110px;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
   }
   .step-icon{
-    height: 10px;
+    width: 32px;
+    height: 32px;
   }
 
 }

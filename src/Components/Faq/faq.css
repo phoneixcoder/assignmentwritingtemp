@@ -1,7 +1,8 @@
 .faq-container{
-  padding-top: 2rem;
+  margin-top: 12%;
+  margin-bottom: 3%;
   padding-bottom: 40px;
-  transition: all 1s ease ;
+  transition: all 0.3s ease ;
 }
 .faq-block-1{
   text-align: center;
@@ -12,25 +13,26 @@
 }
 
 .faq-header{
+  margin: 35px 0 ;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .faq-bg-header{
-  width: 20rem;
+  width: 177px;
+  height: 70px;
   position: absolute;
-  top: 1.5rem;
-    /* left: 40%; */
-    opacity: 0.6;
+  top: -50%;
+  opacity: 0.6;
 }
 
 
 .faq-block-1 h1{
   font-weight: 600;
-  margin: 35px 0 ;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 125%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -41,7 +43,9 @@
 }
 
 .faq-block-1 h4{
-  font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
     background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -55,16 +59,15 @@
 }
 
 .input{
-  font-weight: 300;
   padding: 5px 55px 5px 25px;
-  font-size: 19px;
-  width: 600px;
-  height: 50px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 136%;
+  width: 537px;
+  height: 48px;
   color: #494647;
   background: #FFFFFF;
-  border-color: rgba(45, 209, 219, 1)
-                rgba(45, 156, 219, 1)
-                rgba(26, 142, 208, 1);
+  border-color: rgba(45, 156, 219, 1);
   border-radius: 12px;
 }
 
@@ -73,18 +76,21 @@
   justify-content: center;
   align-items: center;
   margin: 4rem;
+  margin-bottom: 8rem;
 }
 
 .search-icon{
   padding: 5px;
   position: relative;
-  right: 3rem;
+  right: 4%;
   display: block;
   align-items: center;
   justify-content: end;
-  font-size: 3rem!important;
-  color: #151515!important;
+  font-size: 2.4rem!important;
+  color: rgba(45, 156, 219, 1)!important;
   cursor: pointer;
+  width: 20px;
+  height: 20px;
 }
 .search-icon:hover{
   color: #1A8ED0!important;
@@ -103,17 +109,18 @@
 }
 .faq-section-header h3{
   font-weight: 600;
-  font-size:  22px;
-  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 110%;
   background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .chevron{
   color: #2D9CDB;
   margin: -5px 20px 0 0;
-  height: 18px;
+  width: 26px;
+  height: 26.6px;
 }
 .rotate{
   transform: rotate(180deg);
@@ -140,15 +147,13 @@
   cursor: pointer;
   position: absolute;
   left: 47%;
-  margin-top: -25px;
-  width: 4rem;
+  margin-top: 2%;
 }
 .arrow:hover{
   cursor: pointer;
   /* position: absolute; */
-  margin-top: -35px;
+  margin-top: -0.001%;
   left: 47%;
-  width: 4.5rem;
 }
 
 .hide-arrow{
