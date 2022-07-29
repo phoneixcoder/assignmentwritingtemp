@@ -151,7 +151,6 @@ const Form = () => {
               <div className="institute input-box">
                 <label className="input-label">Institute</label>
                 <input
-                
                   className="input-box--data"
                   type="text"
                   placeholder="Enter Institute"
@@ -197,7 +196,7 @@ const Form = () => {
                     {...getRootProps({ className: "dropzone" })}
                   >
                     <input
-                    required
+                      required
                       {...getInputProps()}
                       name="filename"
                       onChange={onChangeFile}

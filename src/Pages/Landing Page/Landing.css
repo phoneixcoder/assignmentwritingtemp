@@ -1,0 +1,55 @@
+:root {
+    --primarygrad: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    --text: #151515;
+}
+
+.landing1 {
+    width: 100%;
+    height: 800px;
+    background: url("../../assets/Landing/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: -4%;
+}
+
+.landing-text {
+    position: absolute;
+    left: 121px;
+    top: 200px;
+    cursor: context-menu;
+}
+
+.landing-text--heading {
+    width: 471px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0.05em;
+    color: var(--text);
+}
+
+.grad-span {
+    background: var(--primarygrad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.landing-text--subtitle {
+    margin-top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #565D5C;
+}
+
+/* Discount Coupon */
+

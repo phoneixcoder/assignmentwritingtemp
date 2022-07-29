@@ -17,6 +17,7 @@ import Faq1 from "./Pages/Faq/Faq";
 import DissertationPage from "./Pages/DissertationPage/DissertationPage";
 import CaseService from "./Pages/CaseStudy/CaseService";
 import ResearchPaper from "./Pages/ResearchPaper/ResearchPaper";
+import Landing from "./Pages/Landing Page/Landing";
 
 const App = () => {
   return (
@@ -33,9 +34,10 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/landing" element={<Landing />} />
           <Route path="/code" element={<Coding />} />
           <Route path="/homework" element={<Homework />} />
-          <Route path="/essaywrite" element={<EssayWrite />} />
+          <Route path="`/essaywrite ` `" element={<EssayWrite />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/faq" element={<Faq1 />} />
           <Route path="/dissertation" element={<DissertationPage />} />

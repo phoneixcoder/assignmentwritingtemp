@@ -1,0 +1,133 @@
+.circle {
+    position: absolute;
+    width: 37px;
+    height: 43.97px;
+    left: 502px;
+    top: 58px;
+    background-color: #E9F3FF;
+    /* background: linear-gradient(90deg, #E9F3FF 61.7%, rgba(248, 251, 255, 0) 100%); */
+    border-radius: 50%;
+    z-index: 2;
+    /* box-shadow: 0px 32px 32px 11px rgba(32, 115, 163, 0.3); */
+}
+
+.coupon-discount-card {
+    position: absolute;
+    width: 520px;
+    height: 159px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    top: 348px;
+    left: 121px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 32px 11px rgba(32, 115, 163, 0.3);
+}
+
+.coupon-discount-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.coupon-discount-text--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coupon-discount-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.05em;
+    color: #565D5C;
+    margin-left: 15px;
+}
+
+.coupon-border {
+    position: relative;
+    width: 0px;
+    height: 159px;
+    border-left: 2px dashed #2D9CDB;
+}
+
+.coupon-border img {
+    position: absolute;
+    left: 0px;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.coupon-discount-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    color: #2D9CDB;
+}
+
+.coupon-discount-detail h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+    letter-spacing: 0.05em;
+}
+
+.coupon-discount-detail h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.05em;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.coupon-code-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coupon-code--text {
+    box-sizing: border-box;
+    width: 115px;
+    height: 28px;
+    background: #EAF3F9;
+    border: 1px dashed #2D9CDB;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.coupon-code--text h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.27em;
+    color: #2D9CDB;
+}
+
+.coupon-code--copy {
+
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
