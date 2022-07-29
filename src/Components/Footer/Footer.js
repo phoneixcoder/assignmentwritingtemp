@@ -37,22 +37,22 @@ const Footer = () => {
           </div>
           <ul>
             <li>
-              <a href="/">About Us</a>
+              <a href="/page404">About Us</a>
             </li>
             <li>
-              <a href="/">Order Now</a>
+              <a href="/page404">Order Now</a>
             </li>
             <li>
-              <a href="/">Blogs</a>
+              <a href="/page404">Blogs</a>
             </li>
             <li>
-              <a href="/">Writers</a>
+              <a href="/page404">Writers</a>
             </li>
             <li>
-              <a href="/">Writing Tools</a>
+              <a href="/page404">Writing Tools</a>
             </li>
             <li>
-              <a href="/">Reviews</a>
+              <a href="/page404">Reviews</a>
             </li>
           </ul>
         </div>
@@ -64,13 +64,13 @@ const Footer = () => {
           </div>
           <ul>
             <li>
-              <a href="/">FAQs</a>
+              <a href="/page404">FAQs</a>
             </li>
             <li>
-              <a href="/">Policies</a>
+              <a href="/page404">Policies</a>
             </li>
             <li>
-              <a href="/">Terms & Conditions</a>
+              <a href="/page404">Terms & Conditions</a>
             </li>
           </ul>
         </div>
@@ -82,12 +82,12 @@ const Footer = () => {
           </div>
           <ul>
             <li>
-              <a href="/">
+              <a href="/page404">
                 <img src={Email} className="icon" alt="email" /> Email Us
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="/page404">
                 <img src={Phone} className="icon" alt="email" /> Call Us
               </a>
             </li>

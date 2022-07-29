@@ -18,7 +18,7 @@ import DissertationPage from "./Pages/DissertationPage/DissertationPage";
 import CaseService from "./Pages/CaseStudy/CaseService";
 import ResearchPaper from "./Pages/ResearchPaper/ResearchPaper";
 import Landing from "./Pages/Landing Page/Landing";
-
+import Page404 from "./Pages/Page404/Page404";
 const App = () => {
   return (
     <>
@@ -32,8 +32,9 @@ const App = () => {
       <Router>
         <Navbar/>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route exact path="/" element={<Landing />} />
+          ${console.log(1)}
+          {/* <Route path="/about" element={<AboutUs />} />
           <Route path="/landing" element={<Landing />} />
           <Route path="/code" element={<Coding />} />
           <Route path="/homework" element={<Homework />} />
@@ -42,8 +43,9 @@ const App = () => {
           <Route path="/faq" element={<Faq1 />} />
           <Route path="/dissertation" element={<DissertationPage />} />
           <Route path="/casestudy" element={<CaseService />} />
-          <Route path="/research" element={<ResearchPaper />} />
-          <Route path="*" element={<Navigate to="/"/> } />
+          <Route path="/research" element={<ResearchPaper />} /> */}
+          <Route path="/page404" element = {<Page404/>} />
+          <Route path="*" element={<Navigate to="/page404"/> } />
         </Routes>
         <Footer />
       </Router>

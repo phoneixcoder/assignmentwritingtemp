@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link className="navbar-brand" to="/">
             <img className="logo" src={logo} alt="assignmentcure-logo" />
           </Link>
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -119,7 +119,7 @@ const Navbar = () => {
             <button type="button" className="btn login-btn">
               LOGIN
             </button>
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>

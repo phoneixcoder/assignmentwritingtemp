@@ -101,7 +101,12 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.dropdown-menu:hover{
+   color: #2D9CDB;
+}
+.dropdown-menu:active{
+   color: #2D9CDB;
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -112,4 +117,7 @@
 
 .navbar-toggler {
   background: #f2f2f2;
+}
+.navbar-toggler:active{
+  color: #2D9CDB;
 }

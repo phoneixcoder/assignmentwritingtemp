@@ -19,6 +19,7 @@ const Landing = () => {
         />
         <Coupon />
         <LandingForm />
+        {/* <p cla></p> */}
       </div>
     </>
   );
