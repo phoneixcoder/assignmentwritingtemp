@@ -51,5 +51,31 @@
     color: #565D5C;
 }
 
-/* Discount Coupon */
 
+.landing-get-quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 160px;
+    border: none;
+    height: 43px;
+    left: 120px;
+    top: 330px;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    box-shadow: 0px 8px 22px rgba(17, 23, 27, 0.2);
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F5FFFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

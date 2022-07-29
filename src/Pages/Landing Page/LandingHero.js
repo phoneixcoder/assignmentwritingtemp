@@ -1,19 +1,19 @@
 import React from "react";
-
-const LandingHero = () => {
+import PropTypes from "prop-types";
+const LandingHero = (props) => {
   return (
     <div className="landing-hero">
       <div className="landing-text">
         <h1 className="landing-text--heading">
-          Premium
-          <span className="grad-span"> Assignment Writing </span> Service For
-          University Students
+          {props.landingFirst}
+          <span className="grad-span"> {props.landingHighlight} </span> {props.landingSecond}
         </h1>
         <h2 className="landing-text--subtitle">
-          Choose Best In Class Assignment Writing Service at just
-          <span className="grad-span"> $9.99 </span>a page
+          {props.landingSubTitle1}
+          <span className="grad-span"> {props. landingHighlightSub} </span>{props.landingSubTitle2}
         </h2>
       </div>
+      <button className={props.buttonClass} type="submit">Get Quote</button>
     </div>
   );
 };
