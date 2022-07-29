@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <>
       <div className="landing1">
-        <LandingHero/>
+        <LandingHero landingFirst = "Premium" landingHighlight = ""/>
         <Coupon/>
         <LandingForm/>
       </div>
