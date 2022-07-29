@@ -19,7 +19,7 @@ const Landing = () => {
         />
         <Coupon />
         <LandingForm />
-        {/* <p cla></p> */}
+        <p className="landing-warning"><a href="">Visit out main website</a> (Currently under-maintainance)</p>
       </div>
     </>
   );

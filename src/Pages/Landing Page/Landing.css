@@ -79,3 +79,18 @@
     order: 0;
     flex-grow: 0;
 }
+
+.landing-warning {
+    position: absolute;
+    height: 18px;
+    left: 120px;
+    top: 756px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #3678F1;
+}
