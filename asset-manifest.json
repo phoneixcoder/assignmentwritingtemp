@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/assignmentwritingtemp/static/css/main.aa99b7e7.css",
-    "main.js": "/assignmentwritingtemp/static/js/main.41142886.js",
+    "main.css": "/assignmentwritingtemp/static/css/main.56226c51.css",
+    "main.js": "/assignmentwritingtemp/static/js/main.aff6b38d.js",
+    "static/media/background.png": "/assignmentwritingtemp/static/media/background.f59a2c15a1031cb65633.png",
     "static/media/background.svg": "/assignmentwritingtemp/static/media/background.cf9353051cad93f88120e96e6cc42941.svg",
     "static/media/laptop.png": "/assignmentwritingtemp/static/media/laptop.ca6e1535869b370f7602.png",
     "static/media/blogimg.svg": "/assignmentwritingtemp/static/media/blogimg.a94ec7df2b388866cf164c41bbd370d2.svg",
@@ -35,12 +36,13 @@
     "static/media/04.svg": "/assignmentwritingtemp/static/media/04.ed2ec9d91c7ad09b2bcfe1f260c2f0e1.svg",
     "static/media/easy.svg": "/assignmentwritingtemp/static/media/easy.4c43b8a468fc72c7847b8794ed930e87.svg",
     "static/media/Quality Badge.svg": "/assignmentwritingtemp/static/media/Quality Badge.aa94c97f3d768777f766160f981c4fc7.svg",
+    "static/media/sissor.svg": "/assignmentwritingtemp/static/media/sissor.91d9ccfeb4503dc2c7f742a8cde28fd0.svg",
     "static/media/01.svg": "/assignmentwritingtemp/static/media/01.640a8016b76b02fd63252afd86db45fe.svg",
     "static/media/badge.svg": "/assignmentwritingtemp/static/media/badge.757dd20dadbdaea45a75eb87801122ff.svg",
     "static/media/acounting.svg": "/assignmentwritingtemp/static/media/acounting.11f5953a6a9cf486ca4af1a1a5f172fb.svg",
     "static/media/search.svg": "/assignmentwritingtemp/static/media/search.cf8bc2b1446e8eba4800d1c36eac5c22.svg",
     "static/media/date.svg": "/assignmentwritingtemp/static/media/date.db58a08025b8b2b3ae34d6c287009184.svg",
-    "static/media/upload.svg": "/assignmentwritingtemp/static/media/upload.4b6b0a28096ad41bed8091ac6b39acd4.svg",
+    "static/media/upload.svg": "/assignmentwritingtemp/static/media/upload.0d944ea94a5d287a2d6edb82da9f374b.svg",
     "static/media/app dev.svg": "/assignmentwritingtemp/static/media/app dev.5bbdeda140d1fc0511a8f4f5cb5bd226.svg",
     "static/media/Target.svg": "/assignmentwritingtemp/static/media/Target.2675fd59e33f418e61f4c18245640e4d.svg",
     "static/media/slick.svg": "/assignmentwritingtemp/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -66,14 +68,15 @@
     "static/media/arrow1.svg": "/assignmentwritingtemp/static/media/arrow1.9072baac671f714ba71e3ccc21fad682.svg",
     "static/media/arrow.svg": "/assignmentwritingtemp/static/media/arrow.e835732a24bfecff04d110d11abfd4cb.svg",
     "static/media/round.svg": "/assignmentwritingtemp/static/media/round.f57c62b640068463c8fc8cb044ad4ba7.svg",
+    "static/media/tick.svg": "/assignmentwritingtemp/static/media/tick.8904df8ca3eedf88522a3637cf61f8da.svg",
     "static/media/timer.svg": "/assignmentwritingtemp/static/media/timer.50849d23594965789212d8f7f6cfdf04.svg",
     "static/media/cloud.svg": "/assignmentwritingtemp/static/media/cloud.3a111eb0dbb6ec2a36c930ae25a6eb1b.svg",
     "static/media/line.svg": "/assignmentwritingtemp/static/media/line.a8193d9a8f0ba39808c9ac0a32cf2071.svg",
-    "main.aa99b7e7.css.map": "/assignmentwritingtemp/static/css/main.aa99b7e7.css.map",
-    "main.41142886.js.map": "/assignmentwritingtemp/static/js/main.41142886.js.map"
+    "main.56226c51.css.map": "/assignmentwritingtemp/static/css/main.56226c51.css.map",
+    "main.aff6b38d.js.map": "/assignmentwritingtemp/static/js/main.aff6b38d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa99b7e7.css",
-    "static/js/main.41142886.js"
+    "static/css/main.56226c51.css",
+    "static/js/main.aff6b38d.js"
   ]
 }
