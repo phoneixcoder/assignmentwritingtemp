@@ -28,6 +28,8 @@
 }
 
 .coupon-discount-text {
+    margin-top: 16px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -60,11 +62,13 @@
 .coupon-border img {
     position: absolute;
     left: 0px;
-    transform: translateX(-50%);
-    top: 10px;
+    transform: translateX(-64%);
+    top: 11px;
 }
 
 .coupon-discount-detail {
+    margin-top: 16px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -75,7 +75,7 @@ const LandingForm = () => {
               </select>
               <input
                 className="landing-input-box--data --landing-mobile mx-3"
-                type="text"
+                type="number"
                 placeholder="Enter Your Phone Number"
                 name="number"
                 value={contact}

@@ -44,7 +44,7 @@ const Coupon = () => {
                 </div>
             </div>
         </div>
-        <div className="circle"></div>
+        {/* <div className="circle"></div> */}
       </div>
     </>
   );
