@@ -91,8 +91,8 @@ const LandingForm = () => {
               Deadline
             </label>
             <input
-              className="landing-input-box--data"
-              style={{ marginLeft: 15, width: 535 }}
+              className="landing-input-box--data extra-width"
+              style={{ marginLeft: 15}}
               type="date"
               placeholder="-Select Date-"
               name="date"

@@ -1,10 +1,10 @@
 /* Chrome, Safari, Edge, Opera */
 .landing-form {
     position: absolute;
-    width: 576px;
-    height: 683px;
-    left: 838px;
-    top: 42px;
+    width: 37.9%;
+    height: 95.12534818941504vh;
+    left: 55%;
+    top: 5.3%;
     background: linear-gradient(125.74deg, rgba(255, 255, 255, 0.6) 0%, rgba(145, 189, 215, 0.04) 50.69%, rgba(255, 255, 255, 0.75) 101.15%);
     box-shadow: 0px 27px 43px -25px rgba(6, 21, 48, 0.3);
     backdrop-filter: blur(15px);
@@ -39,8 +39,8 @@
 .landing-input-box--data {
     margin-top: 8px;
     box-sizing: border-box;
-    width: 255px;
-    height: 32px;
+    width: 97.4%;
+    height: 4.456824512534819vh;
     background: #F7FAFF;
     border-radius: 8px;
     border: 1px solid rgba(26, 142, 208, 1);
@@ -54,8 +54,8 @@
 }
 
 .--landing-country {
-    width: 140px;
-    height: 32px;
+    width: 25.3%;
+    height: 4.456824512534819vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,8 +65,8 @@
 }
 
 .--landing-mobile {
-    width: 379px;
-    height: 32px;
+    width: 68.5%;
+    height: 4.456824512534819vh;
 }
 
 /* The landing-container */
@@ -138,8 +138,8 @@
 
 .landing-text-area {
     box-sizing: border-box;
-    width: 526px;
-    height: 116px;
+    width: 91%;
+    height: 16.15598885793872vh;
     background: #EAF3F9;
     border-radius: 8px;
 }
@@ -150,21 +150,21 @@
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
-    width: 256px;
-    height: 32px;
+    width: 50%px;
+    height: 4.456824512534819vh;
     border-radius: 8px;
 }
 
 .landing-counter--input {
     border-radius: 0px;
-    width: 160px;
+    width: 60%;
     text-align: center;
 }
 
 .landing-counter {
     box-sizing: border-box;
     width: 48px;
-    height: 32px;
+    height: 4.456824512534819vh;
     border: 1px solid;
     background: #F7FAFF;
     border: 1px solid rgba(26, 142, 208, 1);
@@ -203,7 +203,7 @@
     align-items: center;
     padding: 8px 24px;
     gap: 16px;
-    width: 256px;
+    width: 100%;
     height: 62px;
     background: #EAF3F9;
     border-radius: 8px;
@@ -219,7 +219,7 @@
     align-items: center;
     padding: 8px 16px;
     gap: 8px;
-    width: 358px;
+    width: 64.5%;
     height: 43px;
     background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
     border-radius: 8px;
@@ -232,4 +232,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+.extra-width{
+    width: 92.75%;
 }
