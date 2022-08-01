@@ -17,9 +17,9 @@ const Landing = () => {
           landingHighlightSub="$9.99"
           buttonClass = "landing-get-quote"
         />
-        <Coupon />
+        {/* <Coupon /> */}
         <LandingForm />
-        <p className="landing-warning"><a href="">Visit out main website</a> (Currently under-maintainance)</p>
+        {/* <p className="landing-warning"><a href="">Visit out main website</a> (Currently under-maintainance)</p> */}
       </div>
     </>
   );

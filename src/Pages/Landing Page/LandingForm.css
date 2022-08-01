@@ -52,7 +52,10 @@
     color: #ACACAC;
 
 }
-
+input:focus{
+    outline: none;
+    border: 2px solid rgba(26, 142, 208, 1);
+}
 .--landing-country {
     width: 25.3%;
     height: 4.456824512534819vh;
@@ -62,6 +65,7 @@
     align-items: center;
     padding: 4px 16px;
     gap: 16px;
+    font-size: 12px;
 }
 
 .--landing-mobile {
@@ -199,7 +203,7 @@
 .landing-main-dropbox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding: 8px 24px;
     gap: 16px;
@@ -233,6 +237,145 @@
     order: 0;
     flex-grow: 0;
 }
-.extra-width{
+
+.extra-width {
     width: 92.75%;
+}
+
+.landing-option{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #565D5C;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.landing-dropbox-mob{
+    display: none;
+}
+.container-input-range{
+    display: none;
+}
+@media (max-width: 428px){
+    .landing-form{
+        width: 428px;
+        height:250vh;
+        left: 0px;
+        top: 840px;
+        background: none;
+        border-radius: 0px;
+        overflow-x: hidden !important;
+    }
+    .--landing-form-input-container{
+        display: flex;
+        flex-direction: column!important;
+        width: 396px;
+        margin-left: -4px;
+    }
+    .landing-input-label{
+        font-size: 14px;
+    }
+    .landing-input-box--data {
+        width: 396px;
+        height: 48px;
+        font-weight: 300;
+        padding-left: 16px;
+    }
+    .landing-input-box--data:focus{
+        box-shadow: 0px 0px 11px 1px rgba(45, 156, 219, 0.2);
+    }
+    .--landing-country{
+        width: 90px;
+    }
+    .--landing-mobile{
+        margin-right: 8px !important;
+    }
+    .less-margin{
+        margin-left: 0px !important;
+    }
+    .landing-dropbox-web{
+        display: none;
+    }
+    .container-input-range{
+        display: flex; 
+        margin-top: 8rem;
+        width: 396px !important;
+        height: 12px;
+        margin-left: 8px !important;
+    }
+    .container-input-range input{
+        width: 396px !important;
+        height: 12px;
+    }
+    .container-input-range .field input::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 24px;
+        height: 24px;
+    }
+    .value{
+        width: 396px !important;
+        font-size: 12px;
+    }
+    .slider-value{
+        width: 60px !important;
+        height: 29px !important;
+    
+    }
+    .slider-value--text{
+        font-size: 14px !important;
+    }
+    .landing-word-counter{
+        width: 396px !important;
+        height: 48px !important;
+        margin-left: -6px !important;
+    }
+    .landing-counter{
+        width: 48px;
+        height: 48px;
+    }
+    .landing-counter--input{
+        width: 300px !important;
+    }
+    .landing-input--textarea{
+        margin-top: 34px !important;
+        margin-left: 4px !important;
+        width: 396px;
+        height: 139px;
+    }
+    .landing-text-area{
+        width: 396px;
+        height: 116px !important;
+        resize: none;
+    }
+    .landing-text-area:focus{
+        box-shadow: 0px 0px 11px 1px rgba(45, 156, 219, 0.2) !important;
+    }
+    .landing-dropbox-mob{
+        margin-top: 47px;
+        display: block;
+        width: 396px;
+    }
+    .landing-main-dropbox{
+        width: 392px;
+        height: 104px;
+        border-style: dashed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
 }

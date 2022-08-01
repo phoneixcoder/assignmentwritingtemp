@@ -13,7 +13,7 @@ const LandingHero = (props) => {
           <span className="grad-span"> {props. landingHighlightSub} </span>{props.landingSubTitle2}
         </h2>
       </div>
-      {/* <button className={props.buttonClass} type="submit">Get Quote</button> */}
+      <button className={props.buttonClass} type="submit">Get Quote</button>
     </div>
   );
 };

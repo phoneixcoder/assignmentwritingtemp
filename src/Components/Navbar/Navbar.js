@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Footer/logo.svg";
+import login from "./login.svg"
 
 const Navbar = () => {
   return (
@@ -120,6 +121,9 @@ const Navbar = () => {
               LOGIN
             </button>
           </div> */}
+          <div className="login">
+            <img src={login} alt="" className="login-img" />
+          </div>
         </div>
       </nav>
     </div>

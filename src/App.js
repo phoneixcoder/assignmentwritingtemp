@@ -44,10 +44,10 @@ const App = () => {
           <Route path="/dissertation" element={<DissertationPage />} />
           <Route path="/casestudy" element={<CaseService />} />
           <Route path="/research" element={<ResearchPaper />} /> */}
-          <Route path="/page404" element = {<Page404/>} />
-          <Route path="*" element={<Navigate to="/page404"/> } />
+          {/* <Route path="/page404" element = {<Page404/>} /> */}
+          {/* <Route path="*" element={<Navigate to="/page404"/> } /> */}
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
